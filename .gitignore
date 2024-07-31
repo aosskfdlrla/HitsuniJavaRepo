@@ -13,8 +13,6 @@ build/
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-build.gradle
-settings.gradle
 gradlew
 gradlew.bat
 
