@@ -5,6 +5,10 @@ public class BranchingApplication {
         Abreak ab = new Abreak();
         //ab.testSimpleBreakStatement();
         //ab.testSimpleBreakStatement2();
-        ab.testJumpBreak();
+        //ab.testJumpBreak();
+
+        Continue con = new Continue();
+        //con.testSimpleContinueStatement();
+        con.testSimpleContinueStatement2();
     }
 }
