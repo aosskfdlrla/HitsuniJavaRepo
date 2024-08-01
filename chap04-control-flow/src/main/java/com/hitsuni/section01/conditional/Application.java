@@ -13,6 +13,8 @@ public class Application {
         num_IfElseIf numIfElseIf = new num_IfElseIf();
         //numIfElseIf.testSimpleIfElseIfStatement();
         //numIfElseIf.testNestIfElseIfStatement();
-        numIfElseIf.importNestIfElseIfStatement();
+        //numIfElseIf.importNestIfElseIfStatement();
+        SwitchNum swn = new SwitchNum();
+        swn.testSimpleSwitchStatement();
     }
 }
