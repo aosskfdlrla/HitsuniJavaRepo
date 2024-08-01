@@ -51,7 +51,11 @@ public class SwitchNum {
          * 한 줄 이상의 명령문을 작성하고 싶으면 { } 대괄호를 작성해야 함.
          * 값을 리턴할 수 있음 단, 반드시 default 있어야 함.
          * yield 키워드 : 값을 명시적으로 리턴
-         * */
+         * 궁금한것
+         * 1) yield 키워드는 대 괄호 안에서만 사용 가능하다는데 괄호를 치면 사용안하는걸로 됨.
+         * -> 간결하게 사용 가능한데 굳이 이렇게 작성하니 Intelj에서는 불필요하다고 나오는것.
+         * 2) yield 안 쓰면 case 문이 끝나면 그대로 result 로 값이 저장되는 건가?
+         * -> yield switch 다른 값을 반환해야 한다고 한다면 사용할 수 있는 것. */
         int result = switch (op) {
             case '+' -> {
                 System.out.println("더하기 연산 실행");
