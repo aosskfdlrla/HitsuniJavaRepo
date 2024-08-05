@@ -1,5 +1,6 @@
 package com.hitsuni.section05.parameter;
 
+import java.awt.*;
 import java.lang.reflect.Parameter;
 
 public class Application {
@@ -20,5 +21,15 @@ public class Application {
         int[] arr = {1, 2, 3, 4, 5};
         pt.testPrimaryTypeArrayParameter(arr);
         System.out.println("main arr[0] = " + arr[0]);
+
+        Rectangle rectangle = new Rectangle(12.5, 22.5);
+        pt.testClassTypeParameter(rectangle);
+
+        //pt.testVariableLengthArrayParameter();
+        pt.testVariableLengthArrayParameter("홍길동");
+        pt.testVariableLengthArrayParameter("홍길동", "볼링");
+        pt.testVariableLengthArrayParameter("홍길동", "볼링", "축구", "테니스");
+        pt.testVariableLengthArrayParameter("홍길동", "볼링", "축구", "게임", "테니스");
+
     }
 }
