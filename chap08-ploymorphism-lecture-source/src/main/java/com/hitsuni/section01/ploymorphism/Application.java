@@ -55,6 +55,5 @@ public class Application {
 
         Rabbit rabbit1 = (Rabbit) animal1;
         //Rabbit rabbit2 = animal2;
-
     }
 }
