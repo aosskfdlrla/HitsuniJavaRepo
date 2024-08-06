@@ -2,9 +2,9 @@ package com.hitsuni.section09.initblock;
 
 public class Product {
     /* 1. JVM 지정한 기본값 초기화 */
-//    private String name;
-//    private int price;
-//    private static String brand;
+   //  private String name;
+   //  private int price;
+   //  private static String brand;
 
     /* 2. 명시적 초기화 */
     private String name = "갤럭시";
