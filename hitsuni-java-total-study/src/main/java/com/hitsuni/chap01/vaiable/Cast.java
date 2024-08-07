@@ -39,5 +39,15 @@ public class Cast {
         short snum2 = (short)inum2;
         System.out.println(snum2);
 
+        int unum = 10;
+        float fnum = unum;
+
+        System.out.println(fnum);
+
+        char charw = 'a';
+
+        int nnum = 220;
+        charw = (char) nnum;
+        System.out.println(charw);
     }
 }
