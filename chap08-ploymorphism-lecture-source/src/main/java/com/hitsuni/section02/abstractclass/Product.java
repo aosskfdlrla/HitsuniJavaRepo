@@ -9,7 +9,7 @@ public abstract class Product {
 
     /* 추상 클래스는 생성자를 가질 수 있다.
     * 단, 직접적으로 인스턴스를 생성할 수는 없다. */
-    public Product() {}
+    public Product() { }
 
     /* 추상 클래스는 일반적인 메소드를 가질 수 있다. */
     public void nonStaticMethod() {
