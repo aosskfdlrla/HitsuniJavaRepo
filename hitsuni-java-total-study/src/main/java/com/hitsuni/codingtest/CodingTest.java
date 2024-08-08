@@ -2,6 +2,7 @@ package com.hitsuni.codingtest;
 
 import java.util.Scanner;
 
+/* 최소값 최대값 구하기 - BackJoon */
 public class CodingTest {
     public static void main(String[] args) {
 
