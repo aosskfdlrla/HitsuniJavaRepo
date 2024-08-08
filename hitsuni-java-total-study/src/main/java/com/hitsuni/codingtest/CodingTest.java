@@ -25,12 +25,11 @@ public class CodingTest {
             if(index != 0) {
                 max = Math.max(max, numbers[index]);
                 min = Math.min(min, numbers[index]);
-                index++;
             } else {
                 max = numbers[0];
                 min = numbers[0];
-                index++;
             }
+            index++;
         }while(index < numbers.length);
 
         System.out.println(min + " " + max);
