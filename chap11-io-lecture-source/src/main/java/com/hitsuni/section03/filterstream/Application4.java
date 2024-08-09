@@ -29,6 +29,7 @@ public class Application4 {
         try (ObjectInputStream ois = new ObjectInputStream(new FileInputStream("member.txt"))) {
             for(int i = 0; i < inputMembers.length; i++) {
                 inputMembers[i] = (MemberDTO)ois.readObject();
+                System.out.println(inputMembers[i]);
             }
         } catch (IOException e) {
             System.out.println(e.getMessage());

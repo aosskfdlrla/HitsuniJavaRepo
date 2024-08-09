@@ -9,7 +9,8 @@ public class MemberDTO implements java.io.Serializable {
     private String pwd;
     private int age;
     private char gender;
-    private double point;
+    /* 해당 필드는 직렬화 처리에서 제외하겠다는 의미이다. */
+    private transient double point;
 
     public MemberDTO() {
 
