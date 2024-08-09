@@ -1,4 +1,4 @@
-package com.hitsuni.codingtest;
+package com.hitsuni.codingtest_backjoon;
 
 import java.util.Scanner;
 
