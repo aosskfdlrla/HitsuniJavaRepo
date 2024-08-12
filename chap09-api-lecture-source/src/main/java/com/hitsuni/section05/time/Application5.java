@@ -21,7 +21,7 @@ public class Application5 {
         System.out.println("Pattern = " + LocalTime.parse(timeNow, DateTimeFormatter.ofPattern("HH-mm-ss")));
         LocalDate localDate1 = LocalDate.now();
         LocalTime localTime1 = LocalTime.now();
-        String dateFormat = localDate1.format(DateTimeFormatter.ofPattern("yyyy년 MM월 dd일"));
+        String dateFormat = localDate1.format(DateTimeFormatter.ofPattern("yyyy년 MM월 dd="));
         String timeFormat = localTime1.format(DateTimeFormatter.ofPattern("HH시 mm분 ss초"));
         System.out.println("dateFormat = " + dateFormat);
         System.out.println("timeFormat = " + timeFormat);

@@ -27,6 +27,7 @@ public class Application1 {
         * */
         System.out.println("hset : " + hset);
 
+
         /* 중복 값이 저장 되지 않는다.
         * 동일 객체뿐 아니라 동등 객체도 중복 값으로 판단하여 처리한다.
         * String 클래스에 hashCode(), equals()가 오버라이딩 되어있기 때문이다.
