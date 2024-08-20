@@ -24,4 +24,6 @@ public class SigeTank extends UnitObject implements Unit {
     public void sigeMode() {
         System.out.println("시즈탱크가 시즈모드를 했습니다.");
     }
+
+
 }

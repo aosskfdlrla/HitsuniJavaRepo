@@ -28,6 +28,10 @@ public class User implements Serializable {
         this.hobbies = hobbies;
     }
 
+    public User() {
+
+    }
+
     public int getNo() {
         return no;
     }
