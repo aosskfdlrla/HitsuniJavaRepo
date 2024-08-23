@@ -68,7 +68,7 @@ public class Practice28728 {
     public static String solution(String input) {
         Stack stack = new Stack();
         String result = "";
-        try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
+        try(BufferedReader br = new BufferedReader(new StringReader(input))) {
             //BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
             StringTokenizer st;
             int orderNum = Integer.parseInt(br.readLine());
