@@ -1,22 +1,21 @@
 package com.hitsuni.codingtest.backjoon.String;
 
 import java.io.*;
+import java.util.StringTokenizer;
 
-/* 백준 - 10809 번 문제 */
-public class Main10809 {
+public class Main2675 {
     public static void main(String[] args) {
         try(BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
             BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
-            String str = br.readLine();
+            StringTokenizer st;
 
-            /* 'a' 문자를 for 문 조건절에 사용이 가능하다. */
-            for(int i = 'a'; i <= 'z'; i++) {
-                int result = str.indexOf(i);
-                bw.write(result + " ");
+            int strNum = Integer.parseInt(br.readLine());
+            for(int i = 0; i < strNum; i++) {
+                st = new StringTokenizer(br.readLine());
+                int repeatNum = Integer.parseInt(st.nextToken());
+
             }
 
-            bw.flush();
-            bw.close();
         } catch(IOException e) {
             System.out.println(e.getMessage());
         }
